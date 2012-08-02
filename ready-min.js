@@ -1,0 +1,1 @@
+var ready=function(c){if(!ready.r){ready.r=[]}ready.r.push(c);var d=function(){clearTimeout(b);while(ready.r.length){ready.r.splice(0,1)[0]()}};var b=null;var a=function(){if(document&&document.getElementsByTagName&&document.getElementById&&document.body){d()}else{b=setTimeout(a,13)}};a();return ready};
